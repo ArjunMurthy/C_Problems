@@ -16,9 +16,9 @@
 
 int main(){
 
-	printf("2");
-	if(!printf(" Hello1 "))// this gets printed returns non zero value
-		printf("Hello2");// not printed
+
+	if(!printf(" Hello "))// this gets printed returns non zero value
+		printf("Hello2 ");// not printed
 	else
 		printf("World");// this gets printed
 
